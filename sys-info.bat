@@ -1,6 +1,15 @@
 @echo off
 
 
+echo .
+echo 8""""8                                    8                   
+echo 8      e    e eeeee eeeee eeee eeeeeee    8  eeeee eeee eeeee 
+echo 8eeeee 8    8 8   "   8   8    8  8  8    8e 8   8 8    8  88 
+echo     88 8eeee8 8eeee   8e  8eee 8e 8  8    88 8e  8 8eee 8   8 
+echo e   88   88      88   88  88   88 8  8    88 88  8 88   8   8 
+echo 8eee88   88   8ee88   88  88ee 88 8  8    88 88  8 88   8eee8 
+echo .                                                              
+
 set /p "save_or_not=Do you want to save the report or print it? [y/n] "
 
 if /i "%save_or_not%" == "y" (
